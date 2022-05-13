@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+</head>
+
+<body>
+
+    <form name="formulario" action="#">
+
+        <input type="text" name="search_string" placeholder="Matricula, nome, codigo"> 
+        <input type="submit" id="search" value="pesquisa"><br>
+        <input type="radio" name="searchfilter" value="all" checked>Tudo
+        <input type="radio" name="searchfilter" value="cod">Código
+        <input type="radio" name="searchfilter" value="mat">Matricula
+        <input type="radio" name="searchfilter" value="name">Nome<br><br>
+
+    </form>
+
+    <table border="1">
+        <tr>
+            <td>Codigo</td>
+            <td>Matricula</td>
+            <td>Nome</td>
+            <td>Email</td>
+        </tr>
+        <tr>
+            <td>01145</td>
+            <td>123417105</td>
+            <td>Rafael</td>
+            <td>rafael@gmail.com</td>
+        </tr>
+        <tr>
+            <td>02784</td>
+            <td>548445179</td>
+            <td>João</td>
+            <td>Joao@gmail.com</td>
+        </tr>
+        <tr>
+            <td>03472</td>
+            <td>764165478</td>
+            <td>Pedro</td>
+            <td>Pedro@gmail.com</td>
+        </tr>
+        <tr>
+            <td>04784</td>
+            <td>401546478</td>
+            <td>Ana</td>
+            <td>Ana@gmail.com</td>
+        </tr>
+    </table>
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
